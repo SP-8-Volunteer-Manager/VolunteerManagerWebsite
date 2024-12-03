@@ -1,5 +1,5 @@
 * {
-    margin: 10 px;
+    margin: 2 px;
     padding: 0 px;
   }
   
@@ -42,7 +42,7 @@
 
   .section_text {
     text-align: center;
-    line-height: 30px;
+    line-height: 25px;
 
   }
 
@@ -58,6 +58,7 @@
 
   .course, .prof {
     font-size: 17px;
+    line-height: 20px;
   }
 
 
@@ -89,3 +90,39 @@
   height: 60px;
   border-radius: 90px;
 }
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 0px; /* Space between the columns */ 
+}
+
+
+.column {
+  flex: 1; /* Ensures both columns take up equal width */
+  min-width: 100px; /* Prevents shrinking below a certain size */
+  padding: 10px 60px;   
+   
+  
+  
+}
+.cre {
+  font-size: 17px;
+}
+
+.a:link {
+  color: #b8d8f3; 
+}
+
+a:visited {
+  color: rgb(3, 84, 118);
+} 
+
+a:hover {
+ color: rgb(76, 168, 239)
+}
+h2 {
+  text-align: center;
+  font-size: 14px;
+  line-height: 25px;  
+}
+
